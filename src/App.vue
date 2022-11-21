@@ -19,9 +19,14 @@ export default {
         <img width="150" src="./assets/img/dark-logo.png" alt="">
       </div>
       <div class="right_menu">
-        <input class="search_bar rounded-1 py-2" type="search" placeholder="Search">
+        <input class="search_bar rounded-1 py-2 border-0" type="search" placeholder="Search">
       </div>
     </nav>
+    <div class="jumbotron d-flex justify-content-center align-items-center flex-column">
+      <h5 class="text-white">Commence Business</h5>
+      <h1 class="text-white">Distant Monitoring Program</h1>
+      <a class="btn text-decoration-none bg-white" href="#" role="button">Download free guidebook</a>
+    </div>
   </header>
 </template>
 
@@ -36,6 +41,13 @@ li {
 
 .search_bar {
   width: 250px;
+  background-color: #f5f5f5;
+}
+
+.jumbotron {
+  background-image: url('./assets/img/home-3-hero-bg.jpg');
+  background-size: cover;
+  height: 550px;
 }
 </style>
 
