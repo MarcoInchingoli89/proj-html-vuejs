@@ -6,6 +6,7 @@ export default {
 
 <template>
     <header id="site_header">
+        <!-- Navbar -->
         <nav class="navbar d-flex justify-content-around">
             <div class="left_menu">
                 <ul class="d-flex gap-5 p-0 mb-0">
@@ -22,6 +23,7 @@ export default {
                 <input class="search_bar rounded-1 py-2 border-0" type="search" placeholder="Search">
             </div>
         </nav>
+        <!-- Jumbotron -->
         <div class="jumbotron d-flex justify-content-center align-items-center flex-column">
             <h5 class="text-white">Commence Business</h5>
             <h1 class="text-white">Distant Monitoring Program</h1>
