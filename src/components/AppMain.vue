@@ -2,12 +2,14 @@
 import SectionOverview from './AppMain/SectionOverview.vue'
 import SectionCareer from './AppMain/SectionCareer.vue'
 import SectionCourses from './AppMain/SectionCourses.vue'
+import SectionTestimonials from './AppMain/SectionTestimonials.vue'
 export default {
     name: 'AppMain',
     components: {
         SectionOverview,
         SectionCareer,
         SectionCourses,
+        SectionTestimonials
     }
 }
 </script>
@@ -21,29 +23,29 @@ export default {
 
         <SectionCourses />
 
-        <section class="testimonials">
+        <SectionTestimonials />
+
+        <section class="staff">
             <div class="container">
                 <div class="row row-cols-2 gap-4">
-                    <!-- Testo sezione testimonials -->
-                    <div class="col text">
-                        <h6 class="text-uppercase text-muted fw-bold">Testimonials
-                        </h6>
-                        <h2 class="fw-bold">Why Do People <span class="fw-normal green">*Hearts*</span> Us
-                        </h2>
-                        <p class="text-muted">Seeking for verbals of our service quality? Find them here. Everything is
-                            transparent and straightforward for your sense of justification.
-                        </p>
-                        <p><a class="text-decoration-none fw-bold border-bottom border-2 text-body" href="#">View
-                                all</a></p>
+                    <!-- Immagine sezione career -->
+                    <div class="col image">
+                        <img class="index_0 img-fluid rounded-1 shadow-lg"
+                            src="../assets/img/home-3-team-image-300x278.png" alt="">
                     </div>
-                    <!-- Card sovrapposte -->
-                    <div class="col cards">
-                        <div class="card bg-white" style="width: 18rem;">
-                            <div class="card-body">
-                                <h6 class="card-title">Card title</h6>
-                                <p class="card-subtitle mb-2 text-muted">Card subtitle</p>
-                            </div>
-                        </div>
+                    <!-- Testo sezione career -->
+                    <div class="col text">
+                        <h6 class="text-uppercase text-muted fw-bold">How we work
+                        </h6>
+                        <h2 class="fw-bold">Upgrade Your Skills <span class="fw-normal green">Upgrade Your Life</span>
+                        </h2>
+                        <p class="text-muted">Opening up more opprtunities in front of you to get the ticket to more
+                            enjoyable door in life. Getting equipped with new skills for new sets of insights into your
+                            career. MaxCouch accompany learners in every stage of learning.
+                        </p>
+                        <p><a class="text-decoration-none text-body fw-bold border-bottom border-2" href="#">Download
+                                free
+                                guidebook</a></p>
                     </div>
                 </div>
             </div>
