@@ -17,17 +17,17 @@ export default {
                     <h1 class="fw-bold">Learn about our <span class="fw-normal green">Work Culture</span> at
                         MaxCouch</h1>
                     <p class="text-muted">Spend some time to visit our website or head office and discover our
-                        current courses,
-                        enrollmente procedure, and registration deadline. We're opening new classes every beginning
+                        current courses, enrollment procedure, and registration deadline. We're opening new classes
+                        every beginning
                         of each month.
                     </p>
-                    <p class="text-body">Have questions? <a class="text-decoration-none green fw-bold border-bottom"
-                            href="#">Get Free
+                    <p class="text-body">Have questions? <a
+                            class="text-decoration-none green fw-bold border-bottom border-2" href="#">Get Free
                             Guide</a></p>
                 </div>
                 <!-- Immagine sezione overview -->
                 <div class="col overview_image">
-                    <img class="index_0 img-fluid rounded-1"
+                    <img width="450" class="index_0 img-fluid rounded-1"
                         src="../../assets/img/stock-full-hd-10-ohki1ayywq3cqutettrncduujpoaorifqu4relt2ts.jpg" alt="">
                     <img class="rounded-1 img-fluid index_1" width="150"
                         src="../../assets/img/about-us-01-ohkia3qg98rq9vg3s0mn2hkflr1migdqdw370qnegc.jpg" alt="">
@@ -56,7 +56,7 @@ export default {
 @use '../../assets/scss/partials/variables' as *;
 
 .container {
-    max-width: 60%;
+    max-width: 70%;
 }
 
 .overview_image {
@@ -72,13 +72,14 @@ export default {
         position: absolute;
         z-index: 1;
         top: 10%;
-        left: 85%;
+        left: 70%;
     }
 }
 
 .overview_text {
     margin-top: 100px;
-    max-width: 45%;
+    max-width: 40%;
+    margin-right: 4rem;
 }
 
 .green {
