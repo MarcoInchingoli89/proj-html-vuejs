@@ -10,12 +10,11 @@ export default {
         <div class="container">
             <div class="row row-cols-2 gap-4">
                 <!-- Testo sezione overview -->
-                <div class="col overview_text">
-                    <h6 class="text-uppercase text-secondary">Everything in <span
-                            class="text-muted fw-bold">Maxcoach</span>
+                <div class="col text">
+                    <h6 class="text-uppercase text-muted fw-bold">Everything in <span class="text-body">Maxcoach</span>
                     </h6>
-                    <h1 class="fw-bold">Learn about our <span class="fw-normal green">Work Culture</span> at
-                        MaxCouch</h1>
+                    <h2 class="fw-bold">Learn about our <span class="fw-normal green">Work Culture</span> at
+                        MaxCouch</h2>
                     <p class="text-muted">Spend some time to visit our website or head office and discover our
                         current courses, enrollment procedure, and registration deadline. We're opening new classes
                         every beginning
@@ -26,7 +25,7 @@ export default {
                             Guide</a></p>
                 </div>
                 <!-- Immagine sezione overview -->
-                <div class="col overview_image">
+                <div class="col image">
                     <img width="450" class="index_0 img-fluid rounded-1"
                         src="../../assets/img/stock-full-hd-10-ohki1ayywq3cqutettrncduujpoaorifqu4relt2ts.jpg" alt="">
                     <img class="rounded-1 img-fluid index_1" width="150"
@@ -59,7 +58,7 @@ export default {
     max-width: 70%;
 }
 
-.overview_image {
+.image {
     position: relative;
 
     .index_0 {
@@ -76,9 +75,9 @@ export default {
     }
 }
 
-.overview_text {
+.text {
     margin-top: 100px;
-    max-width: 40%;
+    max-width: 30%;
     margin-right: 4rem;
 }
 

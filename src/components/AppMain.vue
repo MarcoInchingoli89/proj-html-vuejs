@@ -1,9 +1,11 @@
 <script>
 import SectionOverview from './AppMain/SectionOverview.vue'
+import SectionCareer from './AppMain/SectionCareer.vue'
 export default {
     name: 'AppMain',
     components: {
         SectionOverview,
+        SectionCareer,
     }
 }
 </script>
@@ -13,31 +15,13 @@ export default {
     <main id="site_main">
         <SectionOverview />
 
-        <section class="career">
-            <div class="container">
-                <div class="row row-cols-2 gap-4">
-                    <!-- Immagine sezione overview -->
-                    <div class="col overview_image">
-                        <img class="index_0 img-fluid rounded-1" src="../assets/img/stock-full-hd-11-670x450.jpg"
-                            alt="">
-                        <img class="rounded-1 img-fluid index_1" width="70" src="../assets/img/icon-youtube-play.png"
-                            alt="">
-                    </div>
-                    <!-- Testo sezione overview -->
-                    <div class="col overview_text">
-                        <h6 class="text-uppercase text-secondary fw-bold">How we work
-                        </h6>
-                        <h1 class="fw-bold">Upgrade Your Skills <span class="fw-normal green">Upgrade Your Life</span>
-                        </h1>
-                        <p class="text-muted">Opening up more opprtunities in front of you to get the ticket to more
-                            enjoyable door in life. Getting equipped with new skills for new sets of insights into your
-                            career. MaxCouch accompany learners in every stage of learning.
-                        </p>
-                        <p><a class="text-decoration-none text-body fw-bold border-bottom border-2" href="#">Download
-                                free
-                                guidebook</a></p>
-                    </div>
-                </div>
+        <SectionCareer />
+
+        <section class="courses">
+            <div class="title text-center">
+                <h6 class="text-uppercase text-secondary">Join Maxcoach at best
+                </h6>
+                <h2 class="fw-bold">Latest Online <span class="fw-normal green">Courses</span></h2>
             </div>
         </section>
 
@@ -51,7 +35,7 @@ export default {
     max-width: 70%;
 }
 
-.overview_image {
+.image {
     position: relative;
 
     .index_0 {
@@ -72,13 +56,17 @@ export default {
     }
 }
 
-.overview_text {
+.text {
     margin-top: 150px;
-    max-width: 40%;
+    max-width: 30%;
     padding-left: 4rem;
 }
 
 .green {
     color: $dl-secondary;
+}
+
+.title {
+    margin-top: 150px;
 }
 </style>
