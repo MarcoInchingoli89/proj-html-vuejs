@@ -1,4 +1,6 @@
 @use '../node_modules/bootstrap/scss/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
 
 
 * {
@@ -9,4 +11,13 @@
 
 body {
     background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-size: 0.9rem;
+}
+
+h6 {
+    font-size: 0.7rem;
 }

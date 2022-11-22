@@ -25,8 +25,8 @@ export default {
         </nav>
         <!-- Jumbotron -->
         <div class="jumbotron d-flex justify-content-center align-items-center flex-column">
-            <h5 class="text-white">Commence Business</h5>
-            <h1 class="text-white">Distant Monitoring Program</h1>
+            <h5 class="text-white fw-bold">Commence Business</h5>
+            <h1 class="text-white fw-light">Distant Monitoring Program</h1>
             <a class="btn text-decoration-none bg-white p-2" href="#" role="button">Download free guidebook</a>
             <div class="sidebar rounded-1"></div>
         </div>
@@ -59,9 +59,10 @@ export default {
 
     .btn {
         color: $dl-secondary;
-        font-size: 0.6rem;
+        font-size: 0.7rem;
         font-weight: bold;
     }
+
 }
 
 .sidebar {
