@@ -21,53 +21,53 @@ export default {
 
         <SectionCourses />
 
+        <section class="testimonials">
+            <div class="container">
+                <div class="row row-cols-2 gap-4">
+                    <!-- Testo sezione testimonials -->
+                    <div class="col text">
+                        <h6 class="text-uppercase text-muted fw-bold">Testimonials
+                        </h6>
+                        <h2 class="fw-bold">Why Do People <span class="fw-normal green">*Hearts*</span> Us
+                        </h2>
+                        <p class="text-muted">Seeking for verbals of our service quality? Find them here. Everything is
+                            transparent and straightforward for your sense of justification.
+                        </p>
+                        <p><a class="text-decoration-none fw-bold border-bottom border-2 text-body" href="#">View
+                                all</a></p>
+                    </div>
+                    <!-- Card sovrapposte -->
+                    <div class="col cards">
+                        <div class="card bg-white" style="width: 18rem;">
+                            <div class="card-body">
+                                <h6 class="card-title">Card title</h6>
+                                <p class="card-subtitle mb-2 text-muted">Card subtitle</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
 </template>
 
 <style lang="scss" scoped>
 @use '../assets/scss/partials/variables' as *;
 
-.title {
-    margin-top: 150px;
+.text {
+    margin-top: 200px;
+    max-width: 35%;
 }
 
-.courses {
-    background-color: $dl-primary;
-
-    .container {
-        max-width: 70%;
-    }
-
-    .card_body {
-
-        .text {
-            font-size: 1rem;
-        }
-
-        span {
-            font-size: 0.7rem;
-        }
-    }
-
-    .circles {
-        .circle_big {
-            height: 10px;
-            width: 10px;
-            background-color: black;
-        }
-
-        .circle {
-            height: 6px;
-            width: 6px;
-            background-color: lightgrey;
-        }
-    }
-
-    .disclaimer {
-        font-size: 0.8rem;
-        padding-bottom: 6rem;
-    }
+.cards {
+    margin-top: 200px;
 }
+
+.container {
+    max-width: 70%;
+}
+
 
 .green {
     color: $dl-secondary;
