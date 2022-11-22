@@ -19,9 +19,22 @@ export default {
 
         <section class="courses">
             <div class="title text-center">
-                <h6 class="text-uppercase text-secondary">Join Maxcoach at best
+                <h6 class="text-uppercase text-muted fw-bold">Join Maxcoach at best
                 </h6>
                 <h2 class="fw-bold">Latest Online <span class="fw-normal green">Courses</span></h2>
+            </div>
+            <div class="container-fluid">
+                <div class="row row-cols-3">
+                    <div class="col">
+                        <div class="card bg-white border-0">
+                            <div class="card_image"></div>
+                            <div class="card_body">
+                                <div class="text"></div>
+                                <div class="statistics"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -33,6 +46,7 @@ export default {
 
 .container {
     max-width: 70%;
+    background-color: $dl-primary;
 }
 
 .image {

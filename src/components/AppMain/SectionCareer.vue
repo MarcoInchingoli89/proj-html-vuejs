@@ -11,13 +11,14 @@ export default {
             <div class="row row-cols-2 gap-4">
                 <!-- Immagine sezione career -->
                 <div class="col image">
-                    <img class="index_0 img-fluid rounded-1" src="../../assets/img/stock-full-hd-11-670x450.jpg" alt="">
+                    <img class="index_0 img-fluid rounded-1 shadow-lg"
+                        src="../../assets/img/stock-full-hd-11-670x450.jpg" alt="">
                     <img class="rounded-1 img-fluid index_1" width="70" src="../../assets/img/icon-youtube-play.png"
                         alt="">
                 </div>
                 <!-- Testo sezione career -->
                 <div class="col text">
-                    <h6 class="text-uppercase text-secondary fw-bold">How we work
+                    <h6 class="text-uppercase text-muted fw-bold">How we work
                     </h6>
                     <h2 class="fw-bold">Upgrade Your Skills <span class="fw-normal green">Upgrade Your Life</span>
                     </h2>
