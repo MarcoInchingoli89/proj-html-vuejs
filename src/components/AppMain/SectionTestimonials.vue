@@ -23,10 +23,17 @@ export default {
                 </div>
                 <!-- Card sovrapposte -->
                 <div class="col cards">
-                    <div class="card bg-white" style="width: 18rem;">
+                    <div class="card bg-white" style="width: 30rem;">
                         <div class="card-body">
-                            <h6 class="card-title">Card title</h6>
-                            <p class="card-subtitle mb-2 text-muted">Card subtitle</p>
+                            <h6 class="card-title">Professional team of spiacialists and passionate mentors at reach
+                            </h6>
+                            <p class="card-subtitle mb-2 text-muted">I need to get a certification for English
+                                proficiency and MaxCoach is my best choice. Their tutors are smart and professional when
+                                dealing with students.</p>
+                            <div class="testimonial">
+                                <div class="avatar"></div>
+                                <div class="text"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -46,6 +53,10 @@ export default {
 
 .cards {
     margin-top: 200px;
+
+    .card {
+        height: 250px;
+    }
 }
 
 .container {
