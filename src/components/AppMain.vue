@@ -30,22 +30,19 @@ export default {
                 <div class="row row-cols-2 gap-4">
                     <!-- Immagine sezione career -->
                     <div class="col image">
-                        <img class="index_0 img-fluid rounded-1 shadow-lg"
-                            src="../assets/img/home-3-team-image-300x278.png" alt="">
+                        <img class="index_0 img-fluid rounded-1 shadow-lg" src="" alt="">
                     </div>
                     <!-- Testo sezione career -->
                     <div class="col text">
-                        <h6 class="text-uppercase text-muted fw-bold">How we work
+                        <h6 class="text-uppercase text-muted fw-bold">Everything in <span
+                                class="text-body">Maxcoach</span>
                         </h6>
-                        <h2 class="fw-bold">Upgrade Your Skills <span class="fw-normal green">Upgrade Your Life</span>
+                        <h2 class="fw-bold">We're Here to <span class="fw-normal green">Transform</span> You!
                         </h2>
-                        <p class="text-muted">Opening up more opprtunities in front of you to get the ticket to more
-                            enjoyable door in life. Getting equipped with new skills for new sets of insights into your
-                            career. MaxCouch accompany learners in every stage of learning.
+                        <p class="text-muted">As learners, people can enjoy great companionship from MaxCoach mentors
+                            and educators. We can help you develop and grow at your best.
                         </p>
-                        <p><a class="text-decoration-none text-body fw-bold border-bottom border-2" href="#">Download
-                                free
-                                guidebook</a></p>
+                        <a class="btn text-decoration-none text-white p-2" href="#" role="button">Get Free Guide</a>
                     </div>
                 </div>
             </div>
@@ -57,17 +54,23 @@ export default {
 <style lang="scss" scoped>
 @use '../assets/scss/partials/variables' as *;
 
-.text {
-    margin-top: 200px;
-    max-width: 35%;
-}
-
-.cards {
-    margin-top: 200px;
+.row {
+    margin-top: 250px;
 }
 
 .container {
     max-width: 70%;
+}
+
+.text {
+    max-width: 35%;
+}
+
+.btn {
+    background-color: $dl-secondary;
+    width: 135px;
+    font-size: 0.6rem;
+    font-weight: bold;
 }
 
 
