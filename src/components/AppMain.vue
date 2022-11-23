@@ -28,11 +28,11 @@ export default {
         <section class="staff">
             <div class="container">
                 <div class="row row-cols-2 gap-4">
-                    <!-- Immagine sezione career -->
-                    <div class="col image">
-                        <img class="index_0 img-fluid rounded-1 shadow-lg" src="" alt="">
+                    <!-- Immagine -->
+                    <div class="col image pb-2 ps-5">
+                        <img width="380" class="img-fluid rounded-1" src="../assets/img/home-3-team-image.png" alt="">
                     </div>
-                    <!-- Testo sezione career -->
+                    <!-- Testo -->
                     <div class="col text">
                         <h6 class="text-uppercase text-muted fw-bold">Everything in <span
                                 class="text-body">Maxcoach</span>
@@ -54,16 +54,17 @@ export default {
 <style lang="scss" scoped>
 @use '../assets/scss/partials/variables' as *;
 
-.row {
-    margin-top: 250px;
-}
-
 .container {
     max-width: 70%;
 }
 
 .text {
+    margin-top: 250px;
     max-width: 35%;
+}
+
+.image {
+    margin-top: 150px;
 }
 
 .btn {
