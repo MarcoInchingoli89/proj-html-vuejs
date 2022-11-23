@@ -17,6 +17,7 @@ export default {
   <footer id="site_footer">
     <div class="container">
       <div class="row row-cols-2">
+        <!-- contenuti -->
         <div class="col">
           <h6 class="text-white fw-bold">Address</h6>
           <ul>
@@ -53,6 +54,7 @@ export default {
             </ul>
           </div>
         </div>
+        <!-- copyright -->
         <div class="copyright d-flex justify-content-center">
           <p>&#169;2020 Maxcoach, All Rights Reserved</p>
         </div>
