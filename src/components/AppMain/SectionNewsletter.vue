@@ -7,13 +7,16 @@ export default {
 <template>
 
     <section class="newsletter">
+        <!-- titolo -->
         <div class="title text-center pt-2 pb-2">
             <h2 class="fw-bold">Subscribe <span class="fw-normal green">Newsletter</span></h2>
         </div>
+        <!-- testo -->
         <div class="disclaimer d-flex flex-column align-items-center">
             <p class="text-muted fw-bold m-0">Enter your email address to register to our newsletter subscription
             </p>
             <span class="text-muted fw-bold">delivered on a regular basis!</span>
+            <!-- input newsletter -->
             <div class="newsletter_input d-flex justify-content-center">
                 <input type="email" class="form-control text border-0 rounded-0 rounded-start" id="exampleInputEmail1"
                     aria-describedby="emailHelp" placeholder="Enter your email">

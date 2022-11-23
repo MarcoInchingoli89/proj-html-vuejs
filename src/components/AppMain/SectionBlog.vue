@@ -10,7 +10,7 @@ export default {
         <div class="title text-center pt-3 pb-5">
             <h6 class="text-uppercase text-muted fw-bold">Read for more joyment
             </h6>
-            <h2 class="fw-bold">Latest From<span class="fw-normal green">Our Blogs</span></h2>
+            <h2 class="fw-bold">Latest From <span class="fw-normal green">Our Blogs</span></h2>
         </div>
         <div class="container">
             <div class="row row-cols-3">
