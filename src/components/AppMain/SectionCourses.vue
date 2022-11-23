@@ -103,6 +103,15 @@ export default {
         max-width: 70%;
     }
 
+    .card:hover {
+
+        cursor: pointer;
+
+        h6 {
+            color: $dl-secondary;
+        }
+    }
+
     .card_body {
 
         .text {
@@ -135,6 +144,6 @@ export default {
 }
 
 .green {
-    color: $dl-secondary;
+    color: $dl-secondary_dark;
 }
 </style>

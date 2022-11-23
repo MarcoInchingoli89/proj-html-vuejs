@@ -89,6 +89,14 @@ export default {
         background-color: $dl-primary;
     }
 
+    .card:hover {
+        cursor: pointer;
+
+        h6 {
+            color: $dl-secondary;
+        }
+    }
+
     .container {
         max-width: 70%;
     }

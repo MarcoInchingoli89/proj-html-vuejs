@@ -67,6 +67,6 @@ export default {
 }
 
 .green_bg {
-    background-color: $dl-secondary;
+    background-color: $dl-secondary_dark;
 }
 </style>

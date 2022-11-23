@@ -47,7 +47,7 @@ export default {
 }
 
 .btn {
-    background-color: $dl-secondary;
+    background-color: $dl-secondary_dark;
     width: 135px;
     font-size: 0.6rem;
     font-weight: bold;
