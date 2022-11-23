@@ -23,16 +23,25 @@ export default {
                 </div>
                 <!-- Card sovrapposte -->
                 <div class="col cards">
-                    <div class="card bg-white" style="width: 30rem;">
+                    <div class="card bg-white shadow border-0" style="width: 30rem;">
                         <div class="card-body">
-                            <h6 class="card-title">Professional team of spiacialists and passionate mentors at reach
+                            <h6 class="card_title fw-bold">Professional team of spiacialists and passionate mentors at
+                                reach
                             </h6>
-                            <p class="card-subtitle mb-2 text-muted">I need to get a certification for English
+                            <p class="card-subtitle pt-2 text-muted fw-bold">I need to get a certification for English
                                 proficiency and MaxCoach is my best choice. Their tutors are smart and professional when
                                 dealing with students.</p>
-                            <div class="testimonial">
-                                <div class="avatar"></div>
-                                <div class="text"></div>
+                            <div class="testimonial d-flex align-items-center">
+                                <div class="avatar mt-5 ps-2 mb-2">
+                                    <img width="60" class="rounded-circle"
+                                        src="../../assets/img/testimonial-avata-01.jpg" alt="">
+                                </div>
+                                <div class="text">
+                                    <h6 class="name fw-bold text-uppercase">
+                                        Madley Pondor
+                                    </h6>
+                                    <p class="job">/ IT Specialist</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -47,15 +56,33 @@ export default {
 @use '../../assets/scss/partials/variables' as *;
 
 .text {
-    margin-top: 200px;
+    margin-top: 70px;
     max-width: 35%;
 }
 
+.row {
+    margin-top: 150px;
+    align-items: center;
+}
+
 .cards {
-    margin-top: 200px;
 
     .card {
         height: 250px;
+    }
+
+    .card_title {
+        font-size: 0.9rem;
+    }
+
+    .name {
+        font-size: 0.7rem;
+        padding-left: 1rem;
+    }
+
+    .job {
+        font-size: 0.7rem;
+        padding-left: 1rem;
     }
 }
 
