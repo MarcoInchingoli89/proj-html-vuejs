@@ -33,6 +33,18 @@ export default {
 
         <SectionBlog />
 
+        <section class="newsletter">
+            <div class="title text-center pt-2 pb-2">
+                <h2 class="fw-bold">Subscribe <span class="fw-normal green">Newsletter</span></h2>
+            </div>
+            <div class="disclaimer d-flex flex-column align-items-center">
+                <p class="text-muted fw-bold m-0">Enter your email address to register to our newsletter subscription
+                </p>
+                <span class="text-muted fw-bold">delivered on a regular basis!</span>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </section>
     </main>
 </template>
 
@@ -40,40 +52,13 @@ export default {
 @use '../assets/scss/partials/variables' as *;
 
 .title {
-    margin-top: 150px;
+    margin-top: 40px;
 }
 
-.blog {
-    background-color: $dl-primary;
-
-    .row {
-        padding-bottom: 3rem;
-    }
-
-    .card {
-        background-color: $dl-primary;
-    }
-
-    .container {
-        max-width: 70%;
-    }
-
-    .card_body {
-
-        .subtitle {
-            font-size: 0.7rem;
-        }
-
-        .text {
-            font-size: 1rem;
-        }
-
-        span {
-            font-size: 0.7rem;
-        }
-    }
+.disclaimer {
+    font-size: 0.8rem;
+    padding-bottom: 2rem;
 }
-
 
 .green {
     color: $dl-secondary;
