@@ -57,11 +57,16 @@ export default {
             <a class="btn text-decoration-none p-2" href="#" role="button">Download free guidebook</a>
             <div class="sidebar rounded-1"></div>
         </div>
+        <button class="scrollUp rounded-circle border-0"></button>
     </header>
 </template>
 
 <style lang="scss" scoped>
 @use '../assets/scss/partials/variables' as *;
+
+header {
+    position: relative;
+}
 
 .navbar {
 
@@ -119,5 +124,15 @@ export default {
     position: absolute;
     right: 0;
     top: 20%;
+}
+
+.scrollUp {
+    height: 35px;
+    width: 35px;
+    background-color: $dl-secondary;
+    position: absolute;
+    position: fixed;
+    left: 96%;
+    top: 650px;
 }
 </style>
