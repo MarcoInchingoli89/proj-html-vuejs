@@ -53,6 +53,9 @@ export default {
             </ul>
           </div>
         </div>
+        <div class="copyright d-flex justify-content-center">
+          <p>&#169;2020 Maxcoach, All Rights Reserved</p>
+        </div>
       </div>
     </div>
   </footer>
@@ -62,7 +65,6 @@ export default {
 @use './assets/scss/partials/variables' as *;
 
 footer {
-  height: 350px;
   background-color: $dl-dark;
 
   .container {
@@ -82,6 +84,7 @@ footer {
 
     list-style: none;
     padding: 0;
+    line-height: 1.5rem;
 
     li {
       font-size: 0.7rem;
@@ -90,6 +93,18 @@ footer {
         color: $dl-light;
         text-decoration: none;
       }
+    }
+  }
+
+  .copyright {
+
+    width: 100%;
+    padding-top: 3.5rem;
+    padding-bottom: 1.5rem;
+
+    p {
+      color: $dl-light;
+      font-size: 0.7rem;
     }
   }
 }
