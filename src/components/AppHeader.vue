@@ -27,7 +27,7 @@ export default {
         <div class="jumbotron d-flex justify-content-center align-items-center flex-column">
             <h5 class="text-white fw-bold">Commence Business</h5>
             <h1 class="text-white fw-light">Distant Monitoring Program</h1>
-            <a class="btn text-decoration-none bg-white p-2" href="#" role="button">Download free guidebook</a>
+            <a class="btn text-decoration-none p-2" href="#" role="button">Download free guidebook</a>
             <div class="sidebar rounded-1"></div>
         </div>
     </header>
@@ -57,10 +57,23 @@ export default {
     height: 550px;
     position: relative;
 
+    a {
+        background-color: white;
+    }
+
+    a:hover {
+        background-color: $dl-secondary_dark;
+        color: white;
+    }
+
     .btn {
         color: $dl-secondary;
         font-size: 0.7rem;
         font-weight: bold;
+
+        &hover {
+            background-color: $dl-secondary_dark;
+        }
     }
 
 }
