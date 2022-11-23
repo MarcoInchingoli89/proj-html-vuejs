@@ -3,13 +3,15 @@ import SectionOverview from './AppMain/SectionOverview.vue'
 import SectionCareer from './AppMain/SectionCareer.vue'
 import SectionCourses from './AppMain/SectionCourses.vue'
 import SectionTestimonials from './AppMain/SectionTestimonials.vue'
+import SectionStaff from './AppMain/SectionStaff.vue'
 export default {
     name: 'AppMain',
     components: {
         SectionOverview,
         SectionCareer,
         SectionCourses,
-        SectionTestimonials
+        SectionTestimonials,
+        SectionStaff
     }
 }
 </script>
@@ -25,28 +27,7 @@ export default {
 
         <SectionTestimonials />
 
-        <section class="staff">
-            <div class="container">
-                <div class="row row-cols-2 gap-4">
-                    <!-- Immagine -->
-                    <div class="col image pb-2 ps-5">
-                        <img width="380" class="img-fluid rounded-1" src="../assets/img/home-3-team-image.png" alt="">
-                    </div>
-                    <!-- Testo -->
-                    <div class="col text">
-                        <h6 class="text-uppercase text-muted fw-bold">Everything in <span
-                                class="text-body">Maxcoach</span>
-                        </h6>
-                        <h2 class="fw-bold">We're Here to <span class="fw-normal green">Transform</span> You!
-                        </h2>
-                        <p class="text-muted">As learners, people can enjoy great companionship from MaxCoach mentors
-                            and educators. We can help you develop and grow at your best.
-                        </p>
-                        <a class="btn text-decoration-none text-white p-2" href="#" role="button">Get Free Guide</a>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <SectionStaff />
 
     </main>
 </template>
