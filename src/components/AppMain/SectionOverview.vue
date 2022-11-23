@@ -35,15 +35,15 @@ export default {
             <!-- Statistiche sezione overview -->
             <div class="stats_overview d-flex my-4 justify-content-center gap-4">
                 <div class="enrolled_learners stats_padding fs-1">
-                    <h2 class="text-center green fw-bold">129+</h2>
+                    <h2 class="text-center green_dark fw-bold">129+</h2>
                     <h6 class="text-uppercase text-muted fw-bold">Enrolled Learners</h6>
                 </div>
                 <div class="finished_sessions fs-1 stats_padding_y">
-                    <h2 class="text-center green fw-bold">80</h2>
+                    <h2 class="text-center green_dark fw-bold">80</h2>
                     <h6 class="text-uppercase text-muted fw-bold">Finished Sessions</h6>
                 </div>
                 <div class="satisfaction_rate stats_padding fs-1">
-                    <h2 class="text-center green fw-bold">4%</h2>
+                    <h2 class="text-center green_dark fw-bold">4%</h2>
                     <h6 class="text-uppercase text-muted fw-bold">Satisfaction Rate</h6>
                 </div>
             </div>
@@ -83,6 +83,10 @@ export default {
 
 .green {
     color: $dl-secondary;
+}
+
+.green_dark {
+    color: $dl-secondary_dark;
 }
 
 .stats_overview {
