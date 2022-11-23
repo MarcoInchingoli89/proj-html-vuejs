@@ -1,6 +1,36 @@
 <script>
 export default {
     name: 'SiteHeader',
+    data() {
+        return {
+            linkNavbar: [
+                {
+                    name: 'Home',
+                    href: '#'
+                },
+                {
+                    name: 'Pages',
+                    href: '#'
+                },
+                {
+                    name: 'Courses',
+                    href: '#'
+                },
+                {
+                    name: 'Features',
+                    href: '#'
+                },
+                {
+                    name: 'Blog',
+                    href: '#'
+                },
+                {
+                    name: 'Shop',
+                    href: '#'
+                },
+            ]
+        }
+    },
 }
 </script>
 
@@ -10,24 +40,7 @@ export default {
         <nav class="navbar d-flex justify-content-around">
             <div class="left_menu">
                 <ul class="d-flex gap-5 p-0 mb-0">
-                    <a href="#">
-                        <li>Home</li>
-                    </a>
-                    <a href="#">
-                        <li>Pages</li>
-                    </a>
-                    <a href="#">
-                        <li>Courses</li>
-                    </a>
-                    <a href="#">
-                        <li>Features</li>
-                    </a>
-                    <a href="#">
-                        <li>Blog</li>
-                    </a>
-                    <a href="#">
-                        <li>Shop</li>
-                    </a>
+                    <li v-for="link in linkNavbar"><a href="{{link.href}}">{{ link.name }}</a></li>
                 </ul>
             </div>
             <div class="logo d-flex">
