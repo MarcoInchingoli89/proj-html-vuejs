@@ -1,6 +1,6 @@
 <script>
 export default {
-    name: 'AppHeader',
+    name: 'SiteHeader',
 }
 </script>
 
@@ -10,10 +10,24 @@ export default {
         <nav class="navbar d-flex justify-content-around">
             <div class="left_menu">
                 <ul class="d-flex gap-5 p-0 mb-0">
-                    <li>Courses</li>
-                    <li>Features</li>
-                    <li>Blog</li>
-                    <li>Shop</li>
+                    <a href="#">
+                        <li>Home</li>
+                    </a>
+                    <a href="#">
+                        <li>Pages</li>
+                    </a>
+                    <a href="#">
+                        <li>Courses</li>
+                    </a>
+                    <a href="#">
+                        <li>Features</li>
+                    </a>
+                    <a href="#">
+                        <li>Blog</li>
+                    </a>
+                    <a href="#">
+                        <li>Shop</li>
+                    </a>
                 </ul>
             </div>
             <div class="logo d-flex">
@@ -37,6 +51,13 @@ export default {
 @use '../assets/scss/partials/variables' as *;
 
 .navbar {
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-size: 0.8rem;
+    }
+
     li {
         list-style: none;
     }
