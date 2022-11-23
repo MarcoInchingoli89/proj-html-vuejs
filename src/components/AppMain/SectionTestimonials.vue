@@ -45,6 +45,50 @@ export default {
                             </div>
                         </div>
                     </div>
+                    <div class="card hidden_card_up bg-white shadow border-0" style="width: 30rem;">
+                        <div class="card-body">
+                            <h6 class="card_title fw-bold">The MaxCoach team works really hard to ensure high level of
+                                quality
+                            </h6>
+                            <p class="card-subtitle pt-2 text-muted fw-bold">I am happy with their arrangement of
+                                lessons and subjects. They tutors are smart and professional when
+                                dealing with students.</p>
+                            <div class="testimonial d-flex align-items-center">
+                                <div class="avatar mt-5 ps-2 mb-2">
+                                    <img width="60" class="rounded-circle"
+                                        src="../../assets/img/testimonial-avata-01.jpg" alt="">
+                                </div>
+                                <div class="text">
+                                    <h6 class="name fw-bold text-uppercase">
+                                        Madley Pondor
+                                    </h6>
+                                    <p class="job">/ IT Specialist</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card hidden_card_down bg-white shadow border-0" style="width: 30rem;">
+                        <div class="card-body">
+                            <h6 class="card_title fw-bold">Professional team of spiacialists and passionate mentors at
+                                reach
+                            </h6>
+                            <p class="card-subtitle pt-2 text-muted fw-bold">I need to get a certification for English
+                                proficiency and MaxCoach is my best choice. Their tutors are smart and professional when
+                                dealing with students.</p>
+                            <div class="testimonial d-flex align-items-center">
+                                <div class="avatar mt-5 ps-2 mb-2">
+                                    <img width="60" class="rounded-circle"
+                                        src="../../assets/img/testimonial-avata-02.jpg" alt="">
+                                </div>
+                                <div class="text">
+                                    <h6 class="name fw-bold text-uppercase">
+                                        Mina Hollace
+                                    </h6>
+                                    <p class="job">/ Freelancer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -67,8 +111,25 @@ export default {
 
 .cards {
 
+    position: relative;
+
     .card {
         height: 250px;
+        z-index: 1;
+    }
+
+    .hidden_card_up {
+        position: absolute;
+        z-index: 0;
+        bottom: 90px;
+        opacity: 0.5;
+    }
+
+    .hidden_card_down {
+        position: absolute;
+        z-index: 0;
+        top: 90px;
+        opacity: 0.5;
     }
 
     .card_title {
