@@ -1,11 +1,11 @@
 <script>
-import SectionOverview from './AppMain/SectionOverview.vue'
-import SectionCareer from './AppMain/SectionCareer.vue'
-import SectionCourses from './AppMain/SectionCourses.vue'
+import SectionOverview from './appmain/SectionOverview.vue'
+import SectionCareer from './appmain/SectionCareer.vue'
+import SectionCourses from './appmain/SectionCourses.vue'
 import SectionTestimonials from './appmain/SectionTestimonials.vue'
-import SectionStaff from './AppMain/SectionStaff.vue'
-import SectionBlog from './AppMain/SectionBlog.vue'
-import SectionNewsletter from './AppMain/SectionNewsletter.vue'
+import SectionStaff from './appmain/SectionStaff.vue'
+import SectionBlog from './appmain/SectionBlog.vue'
+import SectionNewsletter from './appmain/SectionNewsletter.vue'
 export default {
     name: 'SiteMain',
     components: {
